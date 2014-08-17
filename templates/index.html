@@ -6,10 +6,10 @@
 	<link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet">
 	<script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<title>On TV</title>
+	<title>Shows I'm Watching</title>
 </head>
 <body>
-	<h1 class="text-center" style="margin-bottom:0px; margin-top:10px; font-family:'Futura'; color:#FFF">On TV</h1>
+	<h1 class="text-center" style="margin-bottom:0px; margin-top:10px; font-family:'Futura'; color:#FFF">Shows I'm Watching</h1>
 	<div class="container-fluid" style ="padding:0px; background-color:#FFF;">
 		{% for day in tv_data %}
 			<div class="row">
