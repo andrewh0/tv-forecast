@@ -6,11 +6,14 @@ body {
 	color: #000;
 }
 @media(max-width:767px){
-#banner-col {
-	padding-left: 0px;
-	padding-right: 0px
-}
-
+	#banner-col {
+		padding-left: 0px;
+		padding-right: 0px
+	}
+	/*hacky way to deal with rounding error*/
+	#tv-row { 
+		background-color: #0000FF;
+	}
 }
 
 #date {

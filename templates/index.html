@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 	<link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
 	<link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet">
+	<link rel="shortcut icon" href="https://s3-us-west-1.amazonaws.com/andrew-pf/face.ico" type="image/x-icon" />
 	<!--<script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>-->
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<title>Shows I Watch</title>
@@ -17,7 +18,7 @@
 					<h3 style="margin-top:10px;">{{day.day_name}} <small class="text-uppercase">{{day.date}}</small></h3>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="tv-row">
 				<div class="col-xs-2" style="background-color:#FFFF00; height: 2px;"></div>
 				<div class="col-xs-2" style="background-color:#00FFFF; height: 2px;";></div>
 				<div class="col-xs-2" style="background-color:#00FF00; height: 2px;";></div>
