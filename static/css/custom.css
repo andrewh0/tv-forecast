@@ -6,14 +6,11 @@ body {
 	color: #000;
 }
 @media(max-width:767px){
-	#overview {
-		padding-left:30px;
-		padding-right:30px;
-	} 
-	#episode-info {
-		padding-left:30px;
-		padding-right:30px;
-	}
+#banner-col {
+	padding-left: 0px;
+	padding-right: 0px
+}
+
 }
 
 #date {
@@ -25,3 +22,5 @@ body {
 #poster {
 	max-height: 220px;
 }
+
+

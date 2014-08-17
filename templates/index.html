@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h1 class="text-center" style="margin-bottom:0px; margin-top:10px; font-family:'Futura'; color:#FFF">Shows I Watch</h1>
-	<div class="container-fluid" style ="padding:0px; background-color:#FFF;">
+	<div class="container-fluid" style ="background-color:#FFF;" id="content">
 		{% for day in tv_data %}
 			<div class="row">
 				<div class="col-xs-12 text-center" id="date">
@@ -26,13 +26,13 @@
 				<div class="col-xs-2" style="background-color:#0000FF; height: 2px;";></div>
 			</div>
 			{% for episode in day.episodes %}
-				<div class="row" style="margin-bottom:15px;">
+				<div class="row" style="margin-bottom:15px;" id="content-row">
 					<div class="col-sm-2 hidden-xs">
 					</div>
 					<div class="col-sm-2 hidden-xs" style="padding-top:15px;">
 						<img src="{{episode.poster}}" class="img-responsive pull-right" id="poster"></img>
 					</div>
-					<div class="col-xs-12 visible-xs-block">
+					<div class="col-xs-12 visible-xs-block" id="banner-col">
 						<img src="{{episode.banner}}" class="img-responsive" id="banner"></img>
 					</div>
 					<div class="col-xs-12 col-sm-6" id="episode-info">
