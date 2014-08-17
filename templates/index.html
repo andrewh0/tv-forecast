@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/custom.css') }}" rel="stylesheet">
+	<script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<title>On TV</title>
+</head>
+<body>
+	<h1 class="text-center" style="margin-bottom:0px; margin-top:10px; font-family:'Futura'; color:#FFF">On TV</h1>
+	<div class="container-fluid" style ="padding:0px; background-color:#FFF;">
+		{% for day in tv_data %}
+			<div class="row">
+				<div class="col-xs-12 text-center" id="date">
+					<h3 style="margin-top:10px;">{{day.day_name}} <small class="text-uppercase">{{day.date}}</small></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2" style="background-color:#FFFF00; height: 2px;"></div>
+				<div class="col-xs-2" style="background-color:#00FFFF; height: 2px;";></div>
+				<div class="col-xs-2" style="background-color:#00FF00; height: 2px;";></div>
+				<div class="col-xs-2" style="background-color:#FF00FF; height: 2px;";></div>
+				<div class="col-xs-2" style="background-color:#FF0000; height: 2px;";></div>
+				<div class="col-xs-2" style="background-color:#0000FF; height: 2px;";></div>
+			</div>
+			{% for episode in day.episodes %}
+				<div class="row" style="margin-bottom:15px;">
+					<div class="col-sm-2 hidden-xs">
+					</div>
+					<div class="col-sm-2 hidden-xs" style="padding-top:15px;">
+						<img src="{{episode.poster}}" class="img-responsive pull-right" id="poster"></img>
+					</div>
+					<div class="col-xs-12 visible-xs-block">
+						<img src="{{episode.banner}}" class="img-responsive" id="banner"></img>
+					</div>
+					<div class="col-xs-12 col-sm-6" id="episode-info">
+						<h4 style="font-family:'Lato';"><a href="{{episode.imdb}}" target="_blank">{{episode.show_name}}</a><br><small>{{episode.episode_name}}<br>{{episode.time}} on {{episode.network}}</small></h4>
+					</div>
+					<div class="col-sm-2 hidden-xs">
+					</div>
+					<div class="col-xs-12 col-sm-6" id="overview">
+						<p style="font-family:'Lato';">{{episode.overview}}</p>
+					</div>
+				</div>
+			{% endfor %}	
+		{% endfor %}
+		<div class="row">
+			<div class="col-xs-12 text-center" style="background-color:BLACK; color: WHITE; font-family:'Futura';">
+				<h4 style="margin-top:10px;"><small>Made with <a href="http://www.trakt.tv">trakt.tv</a> by <a href="http://www.andrewho.me">Andrew Ho</a></small></h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

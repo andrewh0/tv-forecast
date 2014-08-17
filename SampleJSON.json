@@ -1,0 +1,374 @@
+[
+{
+date: "2014-05-08",
+episodes: [
+{
+show: {
+title: "Conan (2010)",
+year: 2010,
+url: "http://trakt.tv/show/conan-2010",
+first_aired: 1289286000,
+first_aired_iso: "2010-11-08T23:00:00-05:00",
+first_aired_localized: 1289286000,
+first_aired_utc: 1289275200,
+country: "United States",
+overview: "Late night veteran Conan O'Brien returns to television 9 months after the events that lead him to resign from The Tonight Show. Now, back again with Andy Richter and Jimmy Vivino & The Basic Cable Band, Conan is once again taking on the challenge to reign as the king of late night.",
+runtime: 60,
+network: "TBS",
+air_day: "Monday",
+air_day_localized: "Monday",
+air_day_utc: "Monday",
+air_time: "11:00pm",
+air_time_localized: "11:00pm",
+air_time_utc: "8:00pm",
+certification: "TV-14",
+imdb_id: "tt1637574",
+tvdb_id: 194751,
+tvrage_id: 0,
+images: {
+poster: "http://slurm.trakt.us/images/posters/626.27.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/626.27.jpg",
+banner: "http://slurm.trakt.us/images/banners/626.27.jpg"
+},
+ratings: {
+percentage: 84,
+votes: 412,
+loved: 383,
+hated: 29
+},
+genres: [
+"Comedy",
+"Talk Show"
+]
+},
+episode: {
+season: 2014,
+number: 60,
+title: "Sharon Stone, Marc Maron, Rodrigo y Gabriela",
+overview: "",
+url: "http://trakt.tv/show/conan-2010/season/2014/episode/60",
+first_aired: 1399615200,
+first_aired_iso: "2014-05-08T23:00:00-04:00",
+first_aired_localized: 1399615200,
+first_aired_utc: 1399604400,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/626-2014-60.27.jpg"
+},
+ratings: {
+percentage: 77,
+votes: 3,
+loved: 3,
+hated: 0
+}
+}
+},
+{
+show: {
+title: "The Daily Show with Jon Stewart",
+year: 1996,
+url: "http://trakt.tv/show/the-daily-show-with-jon-stewart",
+first_aired: 841644000,
+first_aired_iso: "1996-09-01T23:00:00-04:00",
+first_aired_localized: 841644000,
+first_aired_utc: 841633200,
+country: "United States",
+overview: "Forget trying to keep pace with 24 hour news networks- the best fake news show in the world will provide you with all the news you can handle. The Daily Show is a comedic view of recent news headlines and political figures through a series of satirical monologues by Jon Stewart along with segments by correspondents and finally interviews with guest celebrities and political figures.",
+runtime: 30,
+network: "Comedy Central",
+air_day: "Sunday",
+air_day_localized: "Sunday",
+air_day_utc: "Sunday",
+air_time: "11:00pm",
+air_time_localized: "11:00pm",
+air_time_utc: "8:00pm",
+certification: "TV-14",
+imdb_id: "tt0115147",
+tvdb_id: 71256,
+tvrage_id: 5714,
+images: {
+poster: "http://slurm.trakt.us/images/posters/16.4.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/16.4.jpg",
+banner: "http://slurm.trakt.us/images/banners/16.4.jpg"
+},
+ratings: {
+percentage: 91,
+votes: 1743,
+loved: 1689,
+hated: 54
+},
+genres: [
+"Comedy",
+"News",
+"Talk Show"
+]
+},
+episode: {
+season: 19,
+number: 102,
+title: "Katie Couric",
+overview: "The New York Senate engages in a spirited debate about yogurt, John Hodgman considers acquiring the Los Angeles Clippers, and Katie Couric discusses the obesity epidemic.",
+url: "http://trakt.tv/show/the-daily-show-with-jon-stewart/season/19/episode/102",
+first_aired: 1399615200,
+first_aired_iso: "2014-05-08T23:00:00-04:00",
+first_aired_localized: 1399615200,
+first_aired_utc: 1399604400,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/16-19-102.4.jpg"
+},
+ratings: {
+percentage: 83,
+votes: 84,
+loved: 83,
+hated: 1
+}
+}
+},
+{
+show: {
+title: "The Colbert Report",
+year: 2005,
+url: "http://trakt.tv/show/the-colbert-report",
+first_aired: 1128753000,
+first_aired_iso: "2005-10-07T23:30:00-04:00",
+first_aired_localized: 1128753000,
+first_aired_utc: 1128742200,
+country: "United States",
+overview: "Tune in to The Colbert Report, as Stephen Colbert gives his own take on the issues of the day, and more importantly, to tell you why everyone else's take is just plain wrong. The series is a variety/news show revolving around Colbert's TV persona, a parody of opinionated cable news personalities like Bill O'Reilly, Sean Hannity, and Joe Scarborough.",
+runtime: 30,
+network: "Comedy Central",
+air_day: "Friday",
+air_day_localized: "Friday",
+air_day_utc: "Friday",
+air_time: "11:30pm",
+air_time_localized: "11:30pm",
+air_time_utc: "8:30pm",
+certification: "TV-14",
+imdb_id: "tt0458254",
+tvdb_id: 79274,
+tvrage_id: 6715,
+images: {
+poster: "http://slurm.trakt.us/images/posters/293.1.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/293.1.jpg",
+banner: "http://slurm.trakt.us/images/banners/293.1.jpg"
+},
+ratings: {
+percentage: 89,
+votes: 1202,
+loved: 1159,
+hated: 43
+},
+genres: [
+"Comedy",
+"News",
+"Talk Show"
+]
+},
+episode: {
+season: 10,
+number: 102,
+title: "Ellen Page",
+overview: "Stephen interviews a role-playing congressional candidate, Fox Business anchor Stu Varney gushes about his popular appeal, and Ellen Page talks "X-Men: Days of Future Past."",
+url: "http://trakt.tv/show/the-colbert-report/season/10/episode/102",
+first_aired: 1399617000,
+first_aired_iso: "2014-05-08T23:30:00-04:00",
+first_aired_localized: 1399617000,
+first_aired_utc: 1399606200,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/293-10-102.1.jpg"
+},
+ratings: {
+percentage: 85,
+votes: 64,
+loved: 63,
+hated: 1
+}
+}
+},
+{
+show: {
+title: "The Tonight Show Starring Jimmy Fallon",
+year: 2014,
+url: "http://trakt.tv/show/the-tonight-show-starring-jimmy-fallon",
+first_aired: 1392708900,
+first_aired_iso: "2014-02-17T23:35:00-05:00",
+first_aired_localized: 1392708900,
+first_aired_utc: 1392698100,
+country: "United States",
+overview: "Beginning Feb. 17, 2014, "The Tonight Show" returns to its New York origins when "The Tonight Show Starring Jimmy Fallon" makes its broadcast debut from Studio 6B in Rockefeller Center. Emmy Award- and Grammy Award-winning comedian Jimmy Fallon will bring a high-tempo energy to the storied NBC franchise with his welcoming interview style, love of audience participation, spot-on impersonations and innovative sketches.",
+runtime: 60,
+network: "NBC",
+air_day: "Monday",
+air_day_localized: "Monday",
+air_day_utc: "Monday",
+air_time: "11:35pm",
+air_time_localized: "11:35pm",
+air_time_utc: "8:35pm",
+certification: "TV-14",
+imdb_id: "tt3444938",
+tvdb_id: 270261,
+tvrage_id: 35853,
+images: {
+poster: "http://slurm.trakt.us/images/posters/27894.6.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/27894.6.jpg",
+banner: "http://slurm.trakt.us/images/banners/27894.6.jpg"
+},
+ratings: {
+percentage: 82,
+votes: 131,
+loved: 124,
+hated: 7
+},
+genres: [
+"Comedy",
+"Talk Show"
+]
+},
+episode: {
+season: 1,
+number: 54,
+title: "Michael Fassbender, Zoe Saldana",
+overview: "",
+url: "http://trakt.tv/show/the-tonight-show-starring-jimmy-fallon/season/1/episode/54",
+first_aired: 1399617300,
+first_aired_iso: "2014-05-08T23:35:00-04:00",
+first_aired_localized: 1399617300,
+first_aired_utc: 1399606500,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/27894-1-54.6.jpg"
+},
+ratings: {
+percentage: 100,
+votes: 3,
+loved: 3,
+hated: 0
+}
+}
+}
+]
+},
+{
+date: "2014-05-09",
+episodes: [
+{
+show: {
+title: "Shark Tank",
+year: 2009,
+url: "http://trakt.tv/show/shark-tank",
+first_aired: 1249876800,
+first_aired_iso: "2009-08-09T21:00:00-04:00",
+first_aired_localized: 1249876800,
+first_aired_utc: 1249866000,
+country: "United States",
+overview: "Shark Tank follows aspiring entrepreneurs as they present various business ideas to moguls (known as "the sharks") in hopes of landing an investment in their ideas. Each week, ambitious entrepreneurs present their breakthrough business concepts to ruthless investors to convince them to invest in the concept.",
+runtime: 60,
+network: "ABC",
+air_day: "Sunday",
+air_day_localized: "Sunday",
+air_day_utc: "Sunday",
+air_time: "9:00pm",
+air_time_localized: "9:00pm",
+air_time_utc: "6:00pm",
+certification: "TV-PG",
+imdb_id: "tt1442550",
+tvdb_id: 100981,
+tvrage_id: 22610,
+images: {
+poster: "http://slurm.trakt.us/images/posters/6654.2.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/6654.2.jpg",
+banner: "http://slurm.trakt.us/images/banners/6654.2.jpg"
+},
+ratings: {
+percentage: 80,
+votes: 321,
+loved: 300,
+hated: 21
+},
+genres: [
+"Game Show",
+"Reality"
+]
+},
+episode: {
+season: 5,
+number: 28,
+title: "May 9, 2014",
+overview: "Lighter, healthier wine alternative; deep-sea treasure hunting business; collapsible kayak; decadent cinnamon rolls with a twist; an update on a lobster roll food truck business.",
+url: "http://trakt.tv/show/shark-tank/season/5/episode/28",
+first_aired: 1399694400,
+first_aired_iso: "2014-05-09T21:00:00-04:00",
+first_aired_localized: 1399694400,
+first_aired_utc: 1399683600,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/6654-5-28.2.jpg"
+},
+ratings: {
+percentage: 83,
+votes: 49,
+loved: 49,
+hated: 0
+}
+}
+},
+{
+show: {
+title: "The Tonight Show Starring Jimmy Fallon",
+year: 2014,
+url: "http://trakt.tv/show/the-tonight-show-starring-jimmy-fallon",
+first_aired: 1392708900,
+first_aired_iso: "2014-02-17T23:35:00-05:00",
+first_aired_localized: 1392708900,
+first_aired_utc: 1392698100,
+country: "United States",
+overview: "Beginning Feb. 17, 2014, "The Tonight Show" returns to its New York origins when "The Tonight Show Starring Jimmy Fallon" makes its broadcast debut from Studio 6B in Rockefeller Center. Emmy Award- and Grammy Award-winning comedian Jimmy Fallon will bring a high-tempo energy to the storied NBC franchise with his welcoming interview style, love of audience participation, spot-on impersonations and innovative sketches.",
+runtime: 60,
+network: "NBC",
+air_day: "Monday",
+air_day_localized: "Monday",
+air_day_utc: "Monday",
+air_time: "11:35pm",
+air_time_localized: "11:35pm",
+air_time_utc: "8:35pm",
+certification: "TV-14",
+imdb_id: "tt3444938",
+tvdb_id: 270261,
+tvrage_id: 35853,
+images: {
+poster: "http://slurm.trakt.us/images/posters/27894.6.jpg",
+fanart: "http://slurm.trakt.us/images/fanart/27894.6.jpg",
+banner: "http://slurm.trakt.us/images/banners/27894.6.jpg"
+},
+ratings: {
+percentage: 82,
+votes: 131,
+loved: 124,
+hated: 7
+},
+genres: [
+"Comedy",
+"Talk Show"
+]
+},
+episode: {
+season: 1,
+number: 55,
+title: "James McAvoy, Amy Schumer, tUnE-yArDs",
+overview: "",
+url: "http://trakt.tv/show/the-tonight-show-starring-jimmy-fallon/season/1/episode/55",
+first_aired: 1399703700,
+first_aired_iso: "2014-05-09T23:35:00-04:00",
+first_aired_localized: 1399703700,
+first_aired_utc: 1399692900,
+images: {
+screen: "http://slurm.trakt.us/images/episodes/27894-1-55.6.jpg"
+},
+ratings: {
+percentage: 82,
+votes: 9,
+loved: 9,
+hated: 0
+}
+}
+}
+]
+}
+]

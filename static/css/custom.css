@@ -1,0 +1,27 @@
+body {
+	background-color: #000;
+}
+
+#episode-info h4 a {
+	color: #000;
+}
+@media(max-width:767px){
+	#overview {
+		padding-left:30px;
+		padding-right:30px;
+	} 
+	#episode-info {
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+#date {
+	background-color: #000;
+	color: #fff;
+	font-family: "Futura";
+}
+
+#poster {
+	max-height: 220px;
+}
