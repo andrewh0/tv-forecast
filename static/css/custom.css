@@ -26,4 +26,10 @@ body {
 	max-height: 220px;
 }
 
+.popover {
+	max-width: 600px !important;
+}
 
+.center {
+	text-align: center;
+}
