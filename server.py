@@ -6,7 +6,7 @@ from flask import *
 ontv = Flask(__name__)
 
 
-API_KEY = 'd805aa971b2b7a64cb3c27c6701d6683'
+API_KEY = ''
 USERNAME = 'aho338'
 base_url = 'http://api.trakt.tv/user/calendar/shows.json/'
 
